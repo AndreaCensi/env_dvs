@@ -1,3 +1,6 @@
 src
 environment.sh
 deploy
+out-
+out-*
+aer_events_show.png
