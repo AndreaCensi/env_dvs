@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse-pydev version="1.0"?>
+
+<pydev_project>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">env_dvs</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
+<pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
+<path>/env_dvs/src/compmake/src</path>
+<path>/env_dvs/src/conf_tools/src</path>
+<path>/env_dvs/src/contracts/src</path>
+<path>/env_dvs/src/geometry/src</path>
+<path>/env_dvs/src/procgraph/src</path>
+<path>/env_dvs/src/quickapp/src</path>
+<path>/env_dvs/src/reprep/src</path>
+<path>/env_dvs/src/astatsa/src</path>
+<path>/env_dvs/src/rcl/src</path>
+</pydev_pathproperty>
+</pydev_project>

@@ -1,0 +1,33 @@
+dir: .
+url: git@github.com:AndreaCensi/env_dvs.git
+---
+dir: src/contracts
+url: git@github.com:AndreaCensi/contracts.git
+---
+dir: src/compmake
+url: git@github.com:AndreaCensi/compmake.git
+---
+dir: src/geometry
+url: git@github.com:AndreaCensi/geometry.git
+---
+dir: src/procgraph
+url: git@github.com:AndreaCensi/procgraph.git
+---
+dir: src/reprep
+url: git@github.com:AndreaCensi/reprep.git
+---
+dir: src/conf_tools
+url: git@github.com:AndreaCensi/conf_tools.git
+---
+dir: src/quickapp
+url: git@github.com:AndreaCensi/quickapp.git
+---
+dir: src/astatsa
+url: git@github.com:AndreaCensi/astatsa.git
+---
+dir: src/rcl
+url: git@github.com:AndreaCensi/rcl.git
+---
+dir: src/dvs_tracking
+url: git@github.com:ailab/dvs_tracking.git
+
