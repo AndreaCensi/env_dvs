@@ -39,8 +39,8 @@ virtualenv --system-site-packages --prompt=${tag} `pwd`/deploy
 echo source $\{${tag}_PREFIX\}/bin/activate >> ${config}
 source ${config}
 
-echo "Now installing a few python packages (press enter)"
-read
+# echo "Now installing a few python packages (press enter)"
+# read
 
 
 #pip install --upgrade ipython

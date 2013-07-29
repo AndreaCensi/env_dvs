@@ -3,31 +3,44 @@ url: git@github.com:AndreaCensi/env_dvs.git
 ---
 dir: src/contracts
 url: git@github.com:AndreaCensi/contracts.git
+branch: env_dvs
 ---
 dir: src/compmake
 url: git@github.com:AndreaCensi/compmake.git
+branch: env_dvs
 ---
 dir: src/geometry
 url: git@github.com:AndreaCensi/geometry.git
+branch: env_dvs
 ---
 dir: src/procgraph
 url: git@github.com:AndreaCensi/procgraph.git
+branch: env_dvs
 ---
 dir: src/reprep
 url: git@github.com:AndreaCensi/reprep.git
+branch: env_dvs
 ---
 dir: src/conf_tools
 url: git@github.com:AndreaCensi/conf_tools.git
+branch: env_dvs
 ---
 dir: src/quickapp
 url: git@github.com:AndreaCensi/quickapp.git
 ---
 dir: src/astatsa
 url: git@github.com:AndreaCensi/astatsa.git
+branch: env_dvs
 ---
 dir: src/rcl
 url: git@github.com:AndreaCensi/rcl.git
+branch: env_dvs
 ---
 dir: src/dvs_tracking
 url: git@github.com:ailab/dvs_tracking.git
+branch: new_master
+---
+dir: src/writingtools
+url: git@github.com:AndreaCensi/writingtools.git
+branch: env_dvs
 
