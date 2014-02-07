@@ -27,6 +27,7 @@ branch: env_dvs
 ---
 dir: src/quickapp
 url: git@github.com:AndreaCensi/quickapp.git
+branch: env_dvs
 ---
 dir: src/astatsa
 url: git@github.com:AndreaCensi/astatsa.git
