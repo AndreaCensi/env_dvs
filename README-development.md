@@ -3,7 +3,7 @@ Development notes
 
 ## Step 1: Checkout the source code
 
-The file ``resources.yaml`` lists all necessary repositories. 
+The file [``resources.yaml``](resources.yaml) lists all necessary repositories. 
 Note that you need a specific branch for each repository
 (the ``env_dvs`` branch). This ensures that this code continues
 to run even as the dependences are changed.
