@@ -1,6 +1,9 @@
 Development notes
 =================
 
+These are instructions to install the Python packages and dependencies
+in a virtual environment.
+
 ## Step 1: Checkout the source code
 
 The file [``resources.yaml``](resources.yaml) lists all necessary repositories. 
