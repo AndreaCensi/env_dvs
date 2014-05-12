@@ -13,6 +13,8 @@ The paper's PDF, slides, and other additional materials are found [on this webpa
 
 ## Instructions for reproducing the development environment 
 
-The actual source code and docs are scattered across a bunch of repositories
-(on the ``env_dvs`` branch).
-[See here for instructions on how to setup the development environment](README-development.md).
+The Python source code for the method is contained in the [``rcl`` repository](https://github.com/AndreaCensi/env_dvs).
+Note, however, that there are a bunch of dependences  across a bunch of repositories
+(on the ``env_dvs`` branch). [See here for instructions on how to setup the development environment](README-development.md).
+
+This is the C++ implementation used in the experiments:  <https://github.com/ailab/dvs_tracking>
