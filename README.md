@@ -3,8 +3,9 @@
 
 This repository contains the source code 
 for a Python implementation of the method
-contained in the paper 
+contained in the paper:
 
+<quote>
 <div class='pub_ref_page'>
     <p class='pub-ref-short'><span class="author">A.C., Jonas Strubel, <a href='http://sensors.ini.uzh.ch/christian.html'>Christian Brandli</a>, <a href='http://www.ini.uzh.ch/~tobi'>Tobi Delbruck</a>, and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>
     <span class="title" style='font-weight:bold'><strong>Low-latency localization by Active LED Markers tracking using a Dynamic Vision Sensor</strong>.</span>
@@ -27,7 +28,7 @@ contained in the paper
     }</pre></p>
     <div class='previews'><div class='pdf-preview paper'><a href='http://purl.org/censi/research/2013-dvs-sub.pdf'><img src='http://censi.mit.edu/media/pdf_preview/censi13dvs.png'/><br/>paper</a></div><div class='pdf-preview slides'><a href='http://purl.org/censi/research/2013-dvs-slides.pdf'><img src='http://censi.mit.edu/media/pdf_preview/censi13dvs-slides.png'/><br/>slides</a></div></div><div class='after-previews'></div>-->
 </div>
-
+</quote>
 
 
 The paper's PDF, slides, and other additional materials are found [on this webpage][webpage].
@@ -84,6 +85,22 @@ arguments to ``--interval``. Note the [Compmake][compmake] ``parmake`` argument 
 
 [compmake]: http://andreacensi.github.io/compmake/
 
+The following are a couple of GIFs created from the MP4 that the previous command creates.
+
+
+<table>
+    <th>
+        <td> 1 frame = 30 ms </td>
+        <td> 1 frame = 1 ms </td>
+    </th>
+    <tr>
+    <td>
+        <img src="video1.gif"/>
+    </td>
+    <td>
+        <img src="video2.gif"/>
+    </td>
+</table>
     
 
 ### Other simple stats about the data
@@ -93,7 +110,7 @@ of the data. These are most useful as simple code examples to read through.
 
 The command ``aer_stats_events`` displays some simple spatial statistics:
 
-    $ aer_stats_events -o events2 --log data/nov23/detail_2.aedat -c "clean;make"
+    $ aer_stats_events -o events2 --log 1212-DVS-data/data/nov23/detail_2.aedat -c "clean;make"
 
 <!--The command ``aer_simple_stats` displays ...
 
@@ -101,7 +118,7 @@ $ aer_simple_stats -o simple2 --log data/dec10/flying/l2.aedat -->
 
 The command ``aer_stats_freq` displays the transition frequencies detected in a log.
 
-    $ aer_stats_freq -o freq1 --log data/dec10/flying/l2.aedat 
+    $ aer_stats_freq -o freq1 --log 1212-DVS-data/data/dec10/flying/l2.aedat 
 
 The following is the output, which shows the dominant frequencies 
 corresponding to the different LEDs.
@@ -115,9 +132,9 @@ The configuration is a bit clunky. You should have on the current directory the
 ``aer_blink_conf.yaml`` file found in the ``rcl`` repository. This file 
 contains the frequencies to use for each log. 
 
-This runs the detector on the file ``data/dec6/l1.aedat``
+This runs the detector on the file ``1212-DVS-data/dec10/flying/l2.aedat``:
 
-    $ aer_blink_detect -o l2 -c make --suffix i02p3d15 --log data/dec6/l2.aedat --interval 0.002 --npeaks 3 --min_led_distance 15
+    $ aer_blink_detect -o l2 -c make --suffix i02p3d15 --log 1212-DVS-data/data/dec10/flying/l2.aedat --interval 0.002 --npeaks 3 --min_led_distance 15
 
 The method parameters are:
 
