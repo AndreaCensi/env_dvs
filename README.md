@@ -80,7 +80,8 @@ You can create videos using different intervals for the slice by giving more
 arguments to ``--interval``. Note the [Compmake][compmake] ``parmake`` argument to
 ``-c`` which makes the computation run in parallel (if you have multiple processors).
 
-    aer_video  --log 1212-DVS-data/data/dec10/flying/l2.aedat -o videos2 --interval 0.03 0.01 0.001 -c parmake
+    aer_video  --log 1212-DVS-data/data/dec10/flying/l2.aedat -o videos2 \
+       --interval 0.03 0.01 0.001 -c parmake
 
 
 [compmake]: http://andreacensi.github.io/compmake/
@@ -97,10 +98,10 @@ The following are a couple of GIFs created from the MP4 that the previous comman
     
     <tr>
     <td>
-        <img src="video2.gif"/>
+        <img src="l2.aedat.show_simple-0.03.gif"/>
     </td>
     <td>
-        <img src="video1.gif"/>
+        <img src="l2.aedat.show_simple-0.001.gif"/>
     </td>
     </tr>
 </table>
@@ -137,7 +138,9 @@ contains the frequencies to use for each log.
 
 This runs the detector on the file ``1212-DVS-data/dec10/flying/l2.aedat``:
 
-    $ aer_blink_detect -o l2 -c make --suffix i02p3d15 --log 1212-DVS-data/data/dec10/flying/l2.aedat --interval 0.002 --npeaks 3 --min_led_distance 15
+    $ aer_blink_detect -o l2 -c make --suffix i02p3d15 \
+       --log 1212-DVS-data/data/dec10/flying/l2.aedat \
+       --interval 0.002 --npeaks 3 --min_led_distance 15
 
 The method parameters are:
 
