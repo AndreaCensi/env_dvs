@@ -61,6 +61,29 @@ arguments to ``--interval``. Note the [Compmake][compmake] ``parmake`` argument 
 
     
 
+### Other simple stats about the data
+
+There are a bunch of commands that display some simple statistics
+of the data. These are most useful as simple code examples to read through.
+
+The command ``aer_stats_events`` displays some simple spatial statistics:
+
+    $ aer_stats_events -o events2 --log data/nov23/detail_2.aedat -c "clean;make"
+
+<!--The command ``aer_simple_stats` displays ...
+
+$ aer_simple_stats -o simple2 --log data/dec10/flying/l2.aedat -->
+
+The command ``aer_stats_freq` displays the transition frequencies detected in a log.
+
+    $ aer_stats_freq -o freq1 --log data/dec10/flying/l2.aedat 
+
+The following is the output, which shows the dominant frequencies 
+corresponding to the different LEDs.
+
+<img src="aer_stats_freq.png"/>
+
+
 ### Running the detection algorithm
 
 The configuration is a bit clunky. You should have on the current directory the
@@ -83,22 +106,6 @@ The other parameters have to do with the computation and visualization:
 - ``-o <dir>``: indicates the output directory
 - ``-suffix <string>``: gives a string that indicates this configuration
 - ``-c <compmake commands>``: A [Compmake][compmake] command (try: ``make`` or ``parmake``)
-
-
-### Other simple stats about the data
-
-The command ``aer_stats_events`` displays some simple spatial statistics:
-
-    $ aer_stats_events -o events2 --log data/nov23/detail_2.aedat -c "clean;make"
-
-The command ``aer_simple_stats` displays ...
-
-    $ aer_simple_stats -o simple2 --log data/dec10/flying/l2.aedat 
-
-
-The command ``aer_stats_freq` displays ...
-
-    $ aer_stats_freq -o freq1 --log data/dec10/flying/l2.aedat 
 
     
 
