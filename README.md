@@ -155,7 +155,9 @@ The other parameters have to do with the computation and visualization:
 - ``-suffix <string>``: gives a string that indicates this configuration
 - ``-c <compmake commands>``: A [Compmake][compmake] command (try: ``make`` or ``parmake``)
 
-    
+The following is the output of the method created by the previous command.
+
+<img src="l2.i02p3d15.tracks-parplot.small.gif"/>
 
 
 
