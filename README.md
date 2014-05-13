@@ -89,9 +89,10 @@ The following are a couple of GIFs created from the MP4 that the previous comman
 
 
 <table>
-    <th>
+    <th><tr>
         <td> interval = 0.03 (1 frame = 33 ms)</td>
         <td> interval = 0.001 (1 frame = 1 ms) </td>
+    </tr>
     </th>
     <tr>
     <td>
