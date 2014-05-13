@@ -90,16 +90,17 @@ The following are a couple of GIFs created from the MP4 that the previous comman
 
 <table>
     <th>
-        <td> 1 frame = 30 ms </td>
-        <td> 1 frame = 1 ms </td>
+        <td> interval = 0.03 (1 frame = 33 ms)</td>
+        <td> interval = 0.001 (1 frame = 1 ms) </td>
     </th>
     <tr>
     <td>
-        <img src="video1.gif"/>
-    </td>
-    <td>
         <img src="video2.gif"/>
     </td>
+    <td>
+        <img src="video1.gif"/>
+    </td>
+    </tr>
 </table>
     
 
