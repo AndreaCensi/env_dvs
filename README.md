@@ -7,7 +7,7 @@ contained in the paper
 
 <div class='pub_ref_page'>
     <p class='pub-ref-short'><span class="author">A.C., Jonas Strubel, <a href='http://sensors.ini.uzh.ch/christian.html'>Christian Brandli</a>, <a href='http://www.ini.uzh.ch/~tobi'>Tobi Delbruck</a>, and <a href='https://sites.google.com/site/scarabotix/home'>Davide Scaramuzza</a>.</span>
-    <span class="title" style='font-weight:bold'>Low-latency localization by active led markers tracking using a dynamic vision sensor.</span>
+    <span class="title" style='font-weight:bold'><strong>Low-latency localization by Active LED Markers tracking using a Dynamic Vision Sensor</strong>.</span>
     <span class="booktitle">In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 891&ndash;898. Tokyo,Japan, November 2013.</span>
     <span class="links"><span class="pdf"><a href="http://purl.org/censi/research/2013-dvs-sub.pdf"><img style='border:0; height: 17px; margin-bottom:-6px'   width='16' src='http://censi.mit.edu/media/pdf.gif'/> pdf</a></span> <span class="slides"><a href="http://purl.org/censi/research/2013-dvs-slides.pdf"><img style='border:0; margin-bottom:-6px; height: 17px;'  src='http://censi.mit.edu/media/slides2.gif' width='16' /> slides</a></span></span>
 
