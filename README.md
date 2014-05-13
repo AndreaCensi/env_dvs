@@ -54,10 +54,12 @@ You can create videos using different intervals for the slice by giving more
 arguments to ``--interval``. Note the [Compmake][compmake] ``parmake`` argument to
 ``-c`` which makes the computation run in parallel (if you have multiple processors).
 
-    aer_video  --log 1212-DVS-data/data/dec10/flying/l11.aedat -o tmp-videos --interval 0.03 0.01 0.001 -c parmake
+    aer_video  --log 1212-DVS-data/data/dec10/flying/l2.aedat -o videos2 --interval 0.03 0.01 0.001 -c parmake
 
 
 [compmake]: http://andreacensi.github.io/compmake/
+
+    
 
 ### Running the detection algorithm
 
@@ -67,7 +69,7 @@ contains the frequencies to use for each log.
 
 This runs the detector on the file ``data/dec6/l1.aedat``
 
-    $ aer_blink_detect -o l1 -c make --suffix i02p3d15 --log data/dec6/l1.aedat --interval 0.002 --npeaks 3 --min_led_distance 15
+    $ aer_blink_detect -o l2 -c make --suffix i02p3d15 --log data/dec6/l2.aedat --interval 0.002 --npeaks 3 --min_led_distance 15
 
 The method parameters are:
 
@@ -82,6 +84,21 @@ The other parameters have to do with the computation and visualization:
 - ``-suffix <string>``: gives a string that indicates this configuration
 - ``-c <compmake commands>``: A [Compmake][compmake] command (try: ``make`` or ``parmake``)
 
+
+### Other simple stats about the data
+
+The command ``aer_stats_events`` displays some simple spatial statistics:
+
+    $ aer_stats_events -o events2 --log data/nov23/detail_2.aedat -c "clean;make"
+
+The command ``aer_simple_stats` displays ...
+
+    $ aer_simple_stats -o simple2 --log data/dec10/flying/l2.aedat 
+
+
+The command ``aer_stats_freq` displays ...
+
+    $ aer_stats_freq -o freq1 --log data/dec10/flying/l2.aedat 
 
     
 
