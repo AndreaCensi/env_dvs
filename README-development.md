@@ -4,6 +4,15 @@ Development notes
 These are instructions to install the Python packages and dependencies
 in a virtual environment.
 
+## Step 0: Dependencies
+
+For Ubuntu, these are packages that you might want to install:
+
+    python-cjson
+    python-virtualenv
+    scipy
+
+
 ## Step 1: Checkout the source code
 
 The file [``resources.yaml``](resources.yaml) lists all necessary repositories. 
@@ -26,6 +35,8 @@ Use the script ``initialize_environment.sh`` to install a virtual environment in
 This creates the file ``environment.sh`` with all necessary configuration. From now on, you need to activate the environment:
 
     $ source environment.sh
+
+Note that this step needs ``virtualenv`` (package ``python-virtualenv`` in Ubuntu, or ``pip install virtualenv``).
 
 ## Step 3: Install the Python packages in the environment
 
