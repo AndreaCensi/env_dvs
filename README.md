@@ -72,7 +72,7 @@ And make sure that the executables are correctly installed. For example:
 
 ### Creating videos of the event data
 
-Use this to create a video of a .aedat file with slices = 0.03 seconds:
+To use any of the tools, please make sure to have the ``mencoder`` package installed. Use this to create a video of a .aedat file with slices = 0.03 seconds:
 
     aer_video  --log 1212-DVS-data/data/dec10/flying/l11.aedat -o tmp-videos --interval 0.03  -c make
 
@@ -92,8 +92,8 @@ The following are a couple of GIFs created from the MP4 that the previous comman
 <table>
 
     <tr>
-        <td> ``interval = 0.03`` (1 frame = 33 ms)</td>
-        <td> ``interval = 0.001`` (1 frame = 1 ms) </td>
+        <td> interval = 0.03 (1 frame = 33 ms)</td>
+        <td> interval = 0.001 (1 frame = 1 ms) </td>
     </tr>
     
     <tr>
@@ -120,7 +120,7 @@ The command ``aer_stats_events`` displays some simple spatial statistics:
 
 $ aer_simple_stats -o simple2 --log data/dec10/flying/l2.aedat -->
 
-The command ``aer_stats_freq` displays the transition frequencies detected in a log.
+The command ``aer_stats_freq`` displays the transition frequencies detected in a log.
 
     $ aer_stats_freq -o freq1 --log 1212-DVS-data/data/dec10/flying/l2.aedat 
 
