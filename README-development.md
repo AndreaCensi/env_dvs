@@ -11,6 +11,7 @@ For Ubuntu, these are packages that you might want to install:
     python-cjson
     python-virtualenv
     scipy
+    mencoder, ffmpeg
 
 
 ## Step 1: Checkout the source code
